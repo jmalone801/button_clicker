@@ -1,0 +1,139 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.container {
+    margin: 0px auto;
+    width: 800px;
+    min-height: 500px;
+    background-color:lightslategray;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAV BAR */
+#nav {
+    background-color: lightgray;
+    width: 800px;
+    min-height: 50px;
+    align-items: center;
+
+}
+
+.navTitle {
+    margin-left: 30px;
+}
+
+.search {
+    width: 350px;
+    font-size: 100%;
+}
+
+.button {
+    margin-right: 30px;
+    background-color: cadetblue;
+    font-size: 100%;
+    border-radius: 2px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: black 3px 3px;
+}
+
+/* TOP LEFT BOX */
+
+#topLeftBox {
+    width: 465px;
+    min-height: 200px;
+    outline: solid black 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.boxContent {
+    text-align: center;
+
+}
+
+.ninjaH1 {
+    margin-bottom: 10px;
+}
+
+.nounH3 {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.plural {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.likes {
+    font-size: 16px;
+    padding: 5px;
+    width: 110%;
+    background-color: rgb(221, 223, 113);
+    border-radius: 2px;
+    box-shadow: black 3px 3px;
+}
+
+.definition {
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+
+
+/* BOT LEFT BOX */
+
+#botLeftBox {
+    width: 465px;
+    min-height: 200px;
+    outline: solid black 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+/* TOP RIGHT BOX */
+
+#topRightBox {
+    width: 250px;
+    min-height: 150px;
+    outline: solid black 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:wheat;
+    text-align: center;
+}
+
+.rightBoxContent {
+    padding: 10px;
+}
+
+.addDefinition {
+    font-size: 24px;
+    padding: 5px;
+    width: 90%;
+    margin-top: 20px;
+    background-color: rgb(88, 165, 88);
+    border-radius: 2px;
+    box-shadow: black 3px 3px;
+}
+
+
